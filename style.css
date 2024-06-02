@@ -1,124 +1,248 @@
-:root{
-    --turquoi: #66bfbf;
-    --lightGreen: #3baea0;
-    --green: #a2c11c;
+@media (min-width: 1400px){
+    :root{
+        --turquoi: #66bfbf;
+        --lightGreen: #3baea0;
+        --green: #a2c11c;
+    }
+    *{
+        background-color: whitesmoke;
+    }
+    .all {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 50px;
+        height: 200px;
+    }
+    .divOne {
+        border-radius: 12px;
+        border-bottom-left-radius:0;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 12px;    
+        background-color: white;
+        height: 300px;
+    }
+    .titre1 {
+        background-color: white;
+        color: var(--lightGreen);
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .t7telTitre {
+        background-color: white;
+        color: var(--green);
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;    
+    }
+    .des1 {
+        background-color: white;
+        color: gray;
+        margin-left: 30px;
+        margin-right: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;    
+    }
+    .divTwo {
+        border-radius: 12px;    
+        background-color: var(--lightGreen);
+        color: white;
+        height: 300px;
+        width: 50%;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+    .titre2 {
+        background-color: var(--lightGreen);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        padding-top: 50px;
+        margin-left: 30px;
+    }
+    .flouss {
+        background-color: var(--lightGreen);
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        margin-top: 10px ;
+    }
+    .mounth {
+        background-color: var(--lightGreen);
+        margin-left: 120px;
+        margin-top: -75px ;
+        color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .des2 {
+        background-color: var(--lightGreen);
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+    }
+    .btn {
+        background-color: var(--green);
+        color: white;
+        margin-left: 30px;
+        border: none;
+        width: 85%;
+        height: 50px;
+        border-radius: 12px;
+        font-size: 24px;
+    }
+    .divThree {
+        border-radius: 12px;    
+        background-color: var(--turquoi);
+        height: 300px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        margin-left: 50%;
+        margin-top: -330px;
+        color: grey;
+    }
+    .titre3 {
+        background-color: var(--turquoi);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        padding-top: 50px;
+        margin-left: 30px;
+    }
+    .des3 {
+        background-color: var(--turquoi);
+        margin-left: 30px;
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: -20px;
+    }
+    .attribution{
+        margin-top: 450px;
+        margin-left: 35%;
+        font-size: 20px;
+    }
 }
-*{
-    background-color: whitesmoke;
-}
-.all {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 50px;
-    height: 200px;
-}
-.divOne {
-    border-radius: 12px;
-    border-bottom-left-radius:0;
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 12px;    
-    background-color: white;
-    height: 300px;
-}
-.titre1 {
-    background-color: white;
-    color: var(--lightGreen);
-    margin-left: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    padding-top: 50px;
-}
-.t7telTitre {
-    background-color: white;
-    color: var(--green);
-    margin-left: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;    
-}
-.des1 {
-    background-color: white;
-    color: gray;
-    margin-left: 30px;
-    margin-right: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;    
-}
-.divTwo {
-    border-radius: 12px;    
-    background-color: var(--lightGreen);
-    color: white;
-    height: 300px;
-    width: 50%;
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-}
-.titre2 {
-    background-color: var(--lightGreen);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
-    padding-top: 50px;
-    margin-left: 30px;
-}
-.flouss {
-    background-color: var(--lightGreen);
-    margin-left: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    margin-top: 10px ;
-}
-.mounth {
-    background-color: var(--lightGreen);
-    margin-left: 120px;
-    margin-top: -75px ;
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-.des2 {
-    background-color: var(--lightGreen);
-    margin-left: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
-}
-.btn {
-    background-color: var(--green);
-    color: white;
-    margin-left: 30px;
-    border: none;
-    width: 85%;
-    height: 50px;
-    border-radius: 12px;
-    font-size: 24px;
-}
-.divThree {
-    border-radius: 12px;    
-    background-color: var(--turquoi);
-    height: 300px;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-    margin-left: 50%;
-    margin-top: -330px;
-    color: grey;
-}
-.titre3 {
-    background-color: var(--turquoi);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    padding-top: 50px;
-    margin-left: 30px;
-}
-.des3 {
-    background-color: var(--turquoi);
-    margin-left: 30px;
-    font-size: 18px;
-    line-height: 23px;
-    margin-top: -20px;
-}
-.attribution{
-    margin-top: 450px;
-    margin-left: 35%;
-    font-size: 20px;
+@media (max-width: 900px){
+    :root{
+        --turquoi: #66bfbf;
+        --lightGreen: #3baea0;
+        --green: #a2c11c;
+    }
+    *{
+        background-color: whitesmoke;
+    }
+    .all {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+        height: 200px;
+    }
+    .divOne {
+        border-radius: 12px;
+        border-bottom-left-radius:0;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 12px;    
+        background-color: white;
+        height: 250px;
+        width: 100%
+    }
+    .titre1 {
+        background-color: white;
+        color: var(--lightGreen);
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        padding-top: 25px;
+    }
+    .t7telTitre {
+        background-color: white;
+        color: var(--green);
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;    
+    }
+    .des1 {
+        background-color: white;
+        color: gray;
+        margin-left: 30px;
+        margin-right: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .divTwo {  
+        background-color: var(--lightGreen);
+        color: white;
+        height: 250px;
+        width: 100%;
+    }
+    .titre2 {
+        background-color: var(--lightGreen);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        padding-top: 20px;
+        margin-left: 30px;
+    }
+    .flouss {
+        background-color: var(--lightGreen);
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        margin-top: 10px ;
+    }
+    .mounth {
+        background-color: var(--lightGreen);
+        margin-left: 120px;
+        margin-top: -75px ;
+        color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .des2 {
+        background-color: var(--lightGreen);
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+    .btn {
+        background-color: var(--green);
+        color: white;
+        margin-left: 30px;
+        border: none;
+        width: 85%;
+        height: 50px;
+        border-radius: 12px;
+        font-size: 24px;
+    }
+    .divThree {
+        border-bottom-left-radius:12px ;
+        border-bottom-right-radius:12px ;
+        background-color: var(--turquoi);
+        height: 250px;
+        margin-top: -30px;
+        color: grey;
+    }
+    .titre3 {
+        background-color: var(--turquoi);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        padding-top: 20px;
+        margin-left: 30px;
+    }
+    .des3 {
+        background-color: var(--turquoi);
+        margin-left: 30px;
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: -20px;
+    }
+    .attribution{
+        margin-top: 600px;
+        margin-left: 5%;
+        font-size: 18px;
+    }
 }
